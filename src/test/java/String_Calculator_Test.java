@@ -35,7 +35,7 @@ public class String_Calculator_Test {
     @Test
     void should_throw_exception_for_negatives(){
         Assertions.assertThatThrownBy(()->String_Calculator.Add("1,-2,3,-4"))
-                .hasMessageContaining("Negative Values Not Allowed ")
+                .hasMessageContaining("negatives not allowed ")
                 .hasMessageContaining("-2 -4");
     }
 

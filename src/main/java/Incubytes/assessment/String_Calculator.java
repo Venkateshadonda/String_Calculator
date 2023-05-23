@@ -24,7 +24,7 @@ public class String_Calculator {
                 .filter(number->number<0)
                 .forEach(number->stringBuilder.append(number).append(" "));
         if(!stringBuilder.toString().isEmpty()){
-            throw new RuntimeException("Negative Values Not Allowed "+stringBuilder.toString());
+            throw new RuntimeException("negatives not allowed "+stringBuilder.toString());
         }
     }
 

@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080b5a73-15fa-4e4f-91df-dbad172c2b72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Incubytes/assessment/String_Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/String_Calculator_Test.java" afterDir="false" />
+    <list default="true" id="080b5a73-15fa-4e4f-91df-dbad172c2b72" name="Changes" comment="Second">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Incubytes/assessment/String_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Incubytes/assessment/String_Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +91,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.String_Calculator_Test" />
+        <item itemvalue="JUnit.String_Calculator_Test.should_throw_exception_for_comma_nest_to_new_line" />
         <item itemvalue="JUnit.String_Calculator_Test.should_throw_exception_for_negatives" />
         <item itemvalue="JUnit.String_Calculator_Test.should_return_sum_of_numbers_split_by_commas_and_new_lines" />
-        <item itemvalue="JUnit.String_Calculator_Test.should_throw_exception_for_comma_nest_to_new_line" />
         <item itemvalue="JUnit.String_Calculator_Test.should_return_sum_of_unknown_amount_of_numbers" />
       </list>
     </recent_temporary>
@@ -117,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1684850697301</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second">
+      <created>1684856924122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684856924122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second" />
   </component>
 </project>

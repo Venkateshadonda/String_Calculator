@@ -7,9 +7,9 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class String_Calculator {
-    public static int Add(String input){
-        if(!input.isEmpty()) {
-            List<Integer> outputnumber = strArrToIntList(getSplit(input));
+    public static int Add(String numbers){
+        if(!numbers.isEmpty()) {
+            List<Integer> outputnumber = strArrToIntList(getSplit(numbers));
             negatives(outputnumber);
             return outputnumber.stream()
                     .reduce(Integer::sum)
